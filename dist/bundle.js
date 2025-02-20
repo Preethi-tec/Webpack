@@ -23,14 +23,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _apple_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3);
+ // Import the image
 
-function addimage (){
+function addimage() {
     const img = document.createElement('img');
-    img.src=_apple_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+    img.src = _apple_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]; // Set the source of the image
     const body = document.querySelector('body');
-    body.append(img);
+    body.append(img); // Append the image to the body
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addimage);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addimage); // Export the addimage function
+
 
 /***/ }),
 /* 3 */
@@ -141,9 +144,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helloworld__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
 
+ // Import the addimage function
 
 (0,_helloworld__WEBPACK_IMPORTED_MODULE_0__["default"])();
-addimage();
+(0,_image__WEBPACK_IMPORTED_MODULE_1__["default"])(); // Call the addimage function to add the image
 
 })();
 
