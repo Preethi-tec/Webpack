@@ -1,4 +1,5 @@
-import displayhelloworld from "./helloworld";
-import AppleImage from "./image"
+import displayhelloworld from './helloworld';
+import addimage from './addimage'; // Import the addimage function
+
 displayhelloworld();
-addimage();
+addimage(); // Call the addimage function to add the image
