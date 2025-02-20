@@ -4,7 +4,8 @@ module.exports = {
   entry: './src/index.js',  // Make sure the entry file path is correct
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')  // Use path.resolve to properly resolve the path
+    path: path.resolve(__dirname, 'dist') , // Use path.resolve to properly resolve the path
+    PublicPath:"http//mywebsite.com/"
   },
   mode: 'none',  // This is fine, but you can consider using 'development' or 'production' based on your needs
   module: {
